@@ -1,289 +1,436 @@
-# CHAPTER VI: CEREALS
+Everything you need to know about SAP S/4HANA Assessment using KTern.AI
+Digital Maps
+•
+Oct 4, 2023
+
+Executive Summary
+SAP presented SAP S/4HANA to the world in 2015. In an interview at the 2018 SAP TechEd conference, Rudolf Hois, SAP VP and chief product owner for SAP S/4HANA stated that 50- 60% of the S/4HANA installed base have already chosen system conversion as their route. In fact, to accommodate this route’s growing popularity, the versions of SAP S/4HANA beyond 1809 simplify and reduce the downtime for system conversion. SAP ECC to SAP S/4HANA System Conversion, also called a ”brownfield” approach, enables migration to SAP S/4HANA without re-implementation and without disruption to existing business processes. At the same time, it enables the re-evaluation of customization and existing process flow.
+
+However, migrating to S/4HANA is not as simple as it sounds. It is unlike any other SAP ECC upgrade. It requires a deep understanding of the business structures and technical impacts as well as updated skillsets and business strategies. Therefore, as the first step, you must assess and evaluate the effort required and the business impact before moving to S/4HANA.
+
+
+Table of Contents
+What is SAP S/4HANA assessment?
+SAP S/4HANA Assessment using KTern
+Simplification Item Check
+Enterprise Structure Mining - Sales
+Enterprise Structure Mining – Purchase
+Enterprise Structure Mining – Orders
+Enterprise Structure Mining – Billing
+Add-on Analytics
+Business Function Analytics
+Custom Object Analytics
+Custom Code Impact Analysis
+Test Case Recommendations
+Fiori App Recommendations
+BW Extractor Check
+Transport Request Analytics
+Archiving Recommendations
+User License Recommendations
+Training Scenario Recommendations
+Roadmap Guide
+Features
+Effort Estimation
+Conclusion
+What is SAP S/4HANA assessment?
+One of the primary reasons for the complexity of any SAP S/4HANA transition project is the vast legacy data and the customizations that you must migrate. An SAP S/4HANA assessment enables you to understand the implications of the transition from an existing SAP ERP system to SAP S/4HANA. The check helps to identify the necessary preparations and pre-projects in the current system landscape, long before an SAP S/4HANA system conversion project starts.
 
-Cereals (cultivated grasses) rank first among vegetable foods; being of hardy growth and easy cultivation, they are more widely diffused over the globe than any of the flowering plants. They include wheat, oats, rye, barley, maize (Indian corn), and rice; some authorities place buckwheat among them. Wheat probably is the most largely consumed; next to wheat, comes rice.
+There are several factors which you must consider before deciding to move to S/4HANA. You should have the answers for some relevant questions like:
+How disruptive will the transition be for your organization?
+What is the amount of effort required to transition to S/4HANA?
+How many custom codes will be impacted?
+What is the impact on the existing landscape?
+How much testing effort and business involvement is required?
+How to start preparing for your journey to S/4HANA?
+But, how do you get the answers to the above questions? You get the answer by completing a comprehensive SAP S/4HANA assessment/study of your SAP ECC system, preferably with KTern.
 
-### TABLE SHOWING COMPOSITION
+SAP S/4HANA Assessment using KTern.AI
 
-|  | Proteid | Fat | Starch | Mineral matter | Water |
-| --- | --- | --- | --- | --- | --- |
-| Oatmeal | 15.6 | 7.3 | 68.0 | 1.9 | 7.2 |
-| Corn meal | 8.9 | 2.2 | 75.1 | 0.9 | 12.9 |
-| Wheat flour (spring) | 11.8 | 1.1 | 75.0 | 0.5 | 11.6 |
-| Entire wheat flour | 14.2 | 1.9 | 70.6 | 1.2 | 12.1 |
-| Graham flour | 13.7 | 2.2 | 70.3 | 2.0 | 11.8 |
-| Pearl barley | 9.3 | 1.0 | 77.6 | 1.3 | 10.8 |
-| Rye meal | 7.1 | 0.9 | 78.5 | 0.8 | 12.7 |
-| Rice | 7.8 | 0.4 | 79.4 | 0.4 | 12.4 |
-| Buckwheat flour | 6.1 | 1.0 | 77.2 | 1.4 | 14.3 |
-| Macaroni | 11.7 | 1.6 | 72.9 | 3.0 | 10.8 |
-|  |
-| _Department of Agriculture, Washington, D. C._ |
+KTern is a disruptive all-in-one product built on the SAP Activate framework, the “S/4HANAPEDIA” automation rule engine, a next-gen collaboration platform, and future-ready machine learning algorithms. All these features work in coalition to help ECC customers before their transition, during their transition, and after the transition.
 
-_Macaroni_, _spaghetti_, and _vermicelli_ are made from wheaten flour, rich in gluten, moistened to a stiff dough with water, and forced through small apertures in an iron plate by means of a screw press. Various Italian pastes are made from the same mixture. Macaroni is manufactured to some extent in this country, but the best comes from Italy, Lagana and Pejero, being the favorite brand. When macaroni is colored, it is done by the use of saffron, not by eggs, as is generally supposed. The only egg macaroni is manufactured in strips, and comes from Minneapolis.
+Before the transition, KTern provides an auto-generated blueprint for your ECC to S/4HANA system conversion by completing a comprehensive automated assessment. This blueprint will help you define the right plan, the right effort estimate, the right system sizing, the right execution, the right project management, and the right quality for your ECC to S/4HANA transition - Ensuring up to 53% faster, 37% cheaper, and 99.9% safer S/4HANA migrations.
 
-86Macaroni is valuable food, as it is very cheap and nutritious; but being deficient in fat, it should be combined with cream, butter, or cheese, to make a perfect food.
+You can also download the complete E-Book of SAP S/4HANA Assessments using KTern here.
 
-From cereals many preparations are made, used alone, or in combination with other food products. From rice is made rice flour; from oats, oatmeal, and oats steam-cooked and rolled,—as Rolled Avena, Quaker Rolled Oats, H-O, etc. There are many species of corn, the principal varieties being white, yellow, and red. From corn is made corn meal,—both white and yellow,—corn-starch, hominy, maizena, cerealine, samp, and hulled corn; from wheat, wheaten or white flour, Wheatena, Wheatlet, Rolled Wheat, Pettijohn’s, etc. Rye is used for Rye Flakes, meal, and flour; barley, for flour and pearl barley. Buckwheat, throughout the United States, is used only when made into flour for buckwheat cakes.
+KTern.AI’s SAP S/4HANA Assessment provides the following:
+Simplification Item Check
+Enterprise Structure Mining – Sales (ESM)
+Enterprise Structure Mining – Purchase Documents
+ESM – Orders
+ESM – Billing
+Add-on analytics
+Business Function Analytics
+Custom Object Analytics
+Custom Code Impact Analysis
+Test Case Recommendations
+Fiori App Recommendations
+BW Extractor Check
+Transport Request Analytics
+Archiving Recommendations
+User License Recommendations
+Training Scenario Recommendations
+Roadmap Guide
+Effort Estimation
+In this article, we’ll explain in detail about each of these features and how it provides a comprehensive analysis so that you can move to S/4HANA without any hiccups.
 
-For family use, cereals should be bought in small quantities, and kept in glass jars, tightly covered. Many cereal preparations are on the market for making breakfast mushes, put up in one and two pound packages, with directions for cooking. In nearly all cases, time allowed for cooking is not sufficient, unless dish containing cereal is brought in direct contact with fire, which is not the best way. Mushes should be cooked over hot water after the first five minutes; if a double boiler is not procurable, improvise one. Boiling water and salt should always be added to cereals, allowing one teaspoon salt to each cup of cereal,—boiled to soften cellulose and swell starch-grains, salted to give flavor. Indian meal and finely ground preparations should be mixed with cold water before adding boiling water, to prevent lumping.
+Simplification Item Check
+Simplification list items (in short, Simplification Items) illustrates the business adaptation requirements and effects to custom developments for each function described. Typically, each Simplification Item consists of an SAP OSS Note. The OSS Note has the description and details on how to run that Simplification Item. You have to install the OSS Note into the system and run the Simplification Items Check. However, with KTern, you can automate the process of Simplification Item Check and it provides a comprehensive overview of all the relevant simplifications for SAP S/4HANA – that is, all mandatory solution adjustments in a system conversion project.
 
-### TABLE FOR COOKING CEREALS
+Features of Simplification Item Check
+KTern's Simplification Item check calculates the total number of Simplification Items in a system. It then classifies them into impacted and non-impacted Simplification Items. KTern also provides the status of each Simplification Item with SAP Note references. It also specifies why a particular Simplification Item is relevant or not relevant to your business.
 
-| Kind | Quantity | Water | Time |
-| --- | --- | --- | --- |
-| Steam-cooked and rolled oats, Rolled Avena, Quaker Rolled Oats, H-O, Old Grist Mill, Rolled Oats, | 1 cup | 1¾ cups | 30 minutes |
-| 87Steam-cooked and rolled wheats, Old Grist Mill, Rye Flakes, Pettijohn’s, etc. | 1 cup | 1¼ cups | 20 minutes |
-| Rice (steamed) | 1 cup | 2¾–3¼ cups (according to age of rice) | 45–60 minutes |
-| Indian meal | 1 cup | 3½ cups | 3 hours |
-| Vitos | 1 cup | 4½ cups | 30 minutes |
-| Wheatlet, Wheatena, Wheat Germ, Toasted Wheat, | 1 cup | 3¾ cups | 30 minutes |
-| Oatmeal (coarse) | 1 cup | 4 cups | 3 hours |
-| Hominy (fine) | 1 cup | 4 cups | 1 hour |
+Classification of simplification item
+Classification of simplification item
+Further, the impacted simplification items are classified based on the status as follows:
 
-### Oatmeal Mush with Apples
+Change of existing functionality: Simplification items in this category refer to functions that are generally available in some form in SAP S/4HANA but have been adapted in such a way that might affect existing processes and custom programs.
 
-Core apples, leaving large cavities; pare, and cook until soft in syrup made by boiling sugar and water together, allowing one cup sugar to one and one-half cups water. Fill cavities with oatmeal mush; serve with sugar and cream. The syrup should be saved and re-used. Berries, sliced bananas, or sliced peaches, are acceptably served with any breakfast cereal.
+Functionality unavailable (equivalent exists): Simplification items in this category refer to functions that are not available in SAP S/4HANA. However, the equivalent functionality is available in SAP S/4HANA.
 
-### Cereal with Fruit
+Functionality unavailable (no equivalent): Simplification items in this category refer to functions that are not available in SAP S/4HANA. And, there is no equivalent functionality available. If you think that such impacted items are critical to your business, then it makes sense to wait until SAP releases that functionality and then make the move to S/4HANA.
 
-¾ cup Wheat Germ
+Non-Strategic Functions (equivalent exists): SAP has identified many of the existing core ECC modules/sub-modules/functionalities as "non-strategic" in S/4HANA. If current ECC-users or new businesses require these functionalities which are part of a "non-strategic module/functions" then they have to adopt the "strategic solution" as per S/4HANA roadmap. These "strategic-solutions" may or may not have its equivalent in S/4HANA.
 
-¾ cup cold water
+Generally, the non-strategic functions with equivalents can be classified into:
 
-2 cups boiling water
+ 1.  New S/4HANA solutions part of extended S/4HANA product 
+ 2.  In some cases, existing SAP products which are being 
+ enhanced/built for S/4HANA.
+Non-Strategic Functions (no equivalent): The Simplification Items where these "strategic-solutions" have no equivalent in S/4HANA are classified into this category
 
-1 teaspoon salt
+You can read more on KTern’s simplification item check here : How to automate Simplification Check
 
-½ lb. dates, stoned, and cut in pieces
+Enterprise Structure Mining - Sales
 
-Mix cereal, salt, and cold water; add to boiling water placed on front of range. Boil five minutes, steam in double boiler thirty minutes; stir in dates, and serve with cream. To serve for breakfast, or as a simple dessert.
+Enterprise Mining
 
-### Fried Mushes
+In most SAP S/4HANA assessments, as the first step, organizations aim to find out the enterprise structure in SAP and drill down the hierarchy of each functional module. They find out answers to questions like - What is the type of the system? What is the orientation of the SAP system? How and who uses the system? What is the most effectively used process? How many company codes are there in the system? What are the most effectively used sales organizations? And much more.
 
-Mush left over from breakfast may be packed in greased, one pound baking-powder box, and covered, which will prevent crust from forming. The next morning remove from box, slice thinly, dip in flour, and sauté. Serve with maple syrup.
+Finding out answers to these questions is a very manual task. Many functional consultants are deployed for this purpose. The functional consultants then go through each T-Code, Table and Report to map the hierarchy of the enterprise structure in SAP and find out the complexity of the system. Sounds tiring, right? But this step is mandatory and cannot be skipped. Only after this step, you can proceed with the next step in the system conversion process.
 
-88
+With KTern, you can automate and find out the entire enterprise structure in SAP with just the click of a button. You can find the answers to the above crucial questions easily.
 
-### Fried Corn Meal Mush, or Fried Hominy
+Features
+KTern’s Enterprise Structure Mining – Sales documents feature drills down the various organizational units. It drills down from company codes, sales organizations, distribution channels, plants and all the way up to the sales documents generated. In this way, KTern provides a clear hierarchy and evidently maps the organizational structure. The hierarchy of a sales organization is as follows:
 
-Pack corn meal or hominy mush in greased, one pound baking-powder boxes, or small bread pan, cool, and cover. Cut in thin slices, and sauté; cook slowly, if preferred crisp and dry. Where mushes are cooked to fry, use less water in steaming.
+Company Code -> Sales Organization -> Distribution Channel -> Division -> Plant -> Number of Sales Documents Generated
 
-### Boiled Rice
+Workflow Of KDS
+Enterprise Structure Mining - Sales 
+The functional consultants manually doing this task will definitely not be able to provide such clarity and accuracy in mapping the org structure. They have to go through each table, record and T-code to get this information. An even then, they will not be able to get the total picture. And, let’s not talk about the time required to complete the task. It may take several weeks or even months to complete it. KTern automates the task and provides the results in a span of a few minutes.
 
-1 cup rice
+You can read more on KTern’s Enterprise Structure Mining – Sales here : Enterprise Structure Sales Distribution
 
-2 quarts boiling water
+Enterprise Structure Mining – Purchase
+KTern’s Enterprise Structure Mining – Purchase Documents feature drills down the various organizational units. It drills down from company codes, purchasing organizations, purchasing groups, plant, storage location and all the way up to the number of purchase documents created. In this way, KTern provides a clear hierarchy and evidently maps the organizational structure. The hierarchy of a purchase organization is as follows:
 
-1 tablespoon salt
+Company Code -> Purchasing Organization -> Purchasing Groups -> Plant -> Storage Location -> No. of Purchase Documents Created
 
-_French Chef_
+Enterprise Structure Mining – Purchase 
+Enterprise Structure Mining – Purchase 
+Another important feature of KTern’s Enterprise Structure Mining is that you can sort and search the company codes, purchasing organizations, purchasing groups, plant, storage location, and the number of purchase documents. This enables you to determine the most active company codes, purchasing organizations and so on. For example, if only two purchase documents are generated for the past 5 years in one of the plants, then it can be inferred that that particular plant is not active. After taking a call with the business stakeholders, you need not move that particular plant to S/4HANA.
 
-Pick over rice; add slowly to boiling, salted water, so as not to check boiling of water. Boil thirty minutes, or until soft, which may be determined by testing kernels. Old rice absorbs much more water than new rice, and takes longer for cooking. Drain in coarse strainer, and pour over one quart hot water; return to kettle in which it was cooked; cover, place on back of range, and let stand to dry off, when kernels are distinct. When stirring rice, always use a fork to avoid breaking kernels.
+You can gain such insights only when you have such detailed hierarchy and organizational mapping as provided by KTern. Such observations from KTern helps the MM functional consultants, business stakeholders from both the System Integrator side and the customer side, and the Solution Architects to have a clear picture of the landscape and take better data-driven decisions.
 
-### Steamed Rice
+You can read more on KTern’s Enterprise Structure Mining – Purchase here : Enterprise Structure Material Management
 
-1 cup rice
+Enterprise Structure Mining – Orders
+An SAP system contains several types of orders associated with various modules. They would have been generated over the past several years of using SAP. KTern’s Enterprise Structure Mining feature – Orders drills down the various company codes present in an SAP Landscape. It drills down from company codes, plants, controlling area and the types & number of orders generated. In this way, KTern provides a clear hierarchy and evidently maps the orders generated with its functional module. The hierarchy is as follows:
 
-1 teaspoon salt
+Company Code -> Plant -> Controlling Area -> Number and types of orders
 
-2¾ to 3¼ cups boiling water (according to age of rice)
 
-Put salt and water in top of double boiler, place on range, and add gradually well-washed rice, stirring with a fork to prevent adhering to boiler. Boil five minutes, cover, place over under part double boiler, and steam forty-five minutes, or until kernels are soft; uncover, that steam may escape. When rice is steamed for a simple dessert, use one-half quantity of water given in recipe, and steam until rice has absorbed water; then add scalded milk for remaining liquid.
+Enterprise Structure Mining – Orders
+KTern also provides the option of downloading this report. In addition, you can also post it in the forum, assign stakeholders and collaborate. You can upload the files in KTern and subsequently use it any other stage of the system conversion process. Thus, KTern provides a platform to join forces and work together in determining the relevant enterprise structures in SAP and plan the path to S/4HANA.
 
-**To wash rice.** Put rice in strainer, place strainer over bowl nearly full of cold water; rub rice between hands, lift strainer from bowl, and change water. Repeat process three or four times, until water is quite clear.
+You can read more on KTern’s Enterprise Structure Mining – Orders here.
 
-89
+Enterprise Structure Mining – Orders
+Enterprise Structure Mining - Billing feature drills down the various company codes present in an SAP Landscape. It drills down the company codes, currency, the user who created the document and the type & number of billing documents generated. In this way, KTern provides a clear hierarchy and evidently maps the orders generated with its functional module. The hierarchy is as follows:
 
-### Rice with Cheese
+Company Code -> Currency -> Created by user -> Type and number of billing documents
 
-Steam one cup rice, allowing one tablespoon salt; cover bottom of buttered pudding-dish with rice, dot over with three-fourths tablespoon butter, sprinkle with thin shavings mild cheese and a few grains cayenne; repeat until rice and one-fourth pound cheese are used. Add milk to half the depth of contents of dish, cover with buttered cracker crumbs, and bake until cheese melts.
+KTern can automate this task and provide the hierarchy in just a span of a few minutes.
 
-### Rice à la Riston
+Enterprise Structure Mining – Orders
+Enterprise Structure Mining – Orders
+KTern also provides the option of downloading this report. In addition, you can also post it in the forum, assign stakeholders and collaborate. You can upload the files in KTern and subsequently use it any other stage of the system conversion process. Thus, KTern provides a platform to join forces and work together in determining the relevant enterprise structures in SAP and plan the path to S/4HANA.
 
-Finely chop two thin slices bacon, add to one-half raw medium-sized cabbage, finely chopped; cover, and cook slowly thirty minutes. Add one-fourth cup rice, boiled, one-half teaspoon chopped parsley, and salt and pepper to taste. Moisten with one-half cup White Stock, and cook fifteen minutes.
+You can read more on KTern’s Enterprise Structure Mining – Billing here : Hierarchy of Billing Orders
 
-### Turkish Pilaf I
 
-Wash and drain one-half cup rice, cook in one tablespoon butter until brown, add one cup boiling water, and steam until water is absorbed. Add one and three-fourths cups hot stewed tomatoes, cook until rice is soft, and season with salt and pepper.
+Add-on Analytics
+Your transition from ECC to S/4HANA can stop in its tracks if there is an incompatible add-on. All add-ons must be certified in order to run on S/4HANA. For SAP’s own add-ons or the ones sold through SAP’s pricelist, you can directly request the status of add-ons and additional packages from SAP themselves. However, SAP is not responsible for the independent third-party add-ons.
 
-### Turkish Pilaf II
+Add-on compatibility check is one of the most important and decisive features in KTern’s Impact Analysis module. The main objective of this feature is to determine the add-ons incompatible with S/4HANA, and how it impacts the transition process.
 
-½ cup washed rice
+Features of Add-on analytics
+KTern automates the process of add-on compatibility check during the SAP S/4HANA assessment and does not require the installation of any SAP Notes in the system. After connecting the system, KTern runs the check and automatically classifies the installed add-ons into compatible and incompatible add-ons.
 
-¾ cup tomatoes, stewed and strained
+KTern also goes a step further and classifies the add-ons into three broad categories. They are:
 
-1 cup Brown Stock, highly seasoned
+Software components
+Installed products
+Correction packages
+If one of your critical add-ons is not compatible with S/4HANA, then your entire business could be at risk. In such cases, you will have to wait for SAP’s roadmap to make that particular add-on compatible with S/4HANA. Only then, you can plan your transition from ECC to S/4HANA.
 
-3 tablespoons butter
+KTern.AI Add-on analytics
+KTern.AI Add-on analytics
+KTern also provides the option of downloading this report. In addition, you can also post it in the forum, assign stakeholders and collaborate. You can upload the files in KTern and subsequently use it any other stage of the system conversion process. Thus, KTern provides a platform to join forces and work together in determining the relevant enterprise structures in SAP and plan the path to S/4HANA.
 
-Add tomato to stock, and heat to boiling-point; add rice, and steam until rice is soft; stir in butter with a fork, and keep uncovered that steam may escape. Serve in place of a vegetable, or as border for curried or fricasseed meat.
+You can read more on KTern’s Add-on analytics here : Add-on Compatibility check
 
-### Turkish Pilaf III
+Business Function Analytics
+KTern’s Business Function Analytics feature analyzes all the business functions installed in an ECC system in the Discover phase itself. It then classifies them into active and inactive business functions. The main objective of this feature is to analyze the impact of migrating these active business functions to S/4HANA. If any critical active business function is not compatible with S/4HANA, then you cannot migrate to S/4HANA.
 
-⅓ cup rice
 
-3 tablespoons butter
+Business Function Analysis
 
-½ cup canned tomatoes
+Features of Business Function Analytics
+KTern automates the process of analyzing business functions. After connecting the system, KTern runs the business functions analytics check and automatically classifies the installed business functions into active and inactive business functions. KTern also classifies the business functions into the following types:
 
-½ cup cold cooked chicken cut in dice
+Enterprise Extensions: These are the type of business functions which activate industry-independent and industry-specific applications and business processes.
+Enterprise Business Functions: They can activate special features in SAP S/4HANA. They contain both industry-specific and industry-independent enterprise business functions.
+Industry Business Functions: They contain functions specific to a particular industry and are part of the industry business function sets.
+KTern.AI Business Function Analytics
+KTern.AI Business Function Analytics
+If one of your critical add-ons is not compatible with S/4HANA, then your entire business could be at risk. In such cases, you will have to wait for SAP’s roadmap to make that particular add-on compatible with S/4HANA. Only then, you can plan your transition from ECC to S/4HANA.
 
-White Stock highly seasoned
+You can read more on KTern’s Business Function Analytics here : Business Function Analysis
 
-Salt and cayenne
+Custom Object Analytics
+You can create several custom transactions, tables, reports and objects in your SAP system. However, before moving to S/4HANA, it is necessary to analyze all the custom objects in order to determine the most used objects and to retire some custom objects. Without a single unified view of all the custom objects, it is very difficult to figure this out. However, KTern is here to save the day.
 
-Cook rice in boiling salted water, drain, and pour over hot water to thoroughly rinse. Heat omelet pan, add butter, 90and as soon as butter is melted add rice. Cook three minutes; then add tomatoes, chicken, and enough stock to moisten. Cook five minutes, and season highly with salt and cayenne. If not rich enough, add more butter.
+Features of Custom Object Analytics
+KTern automates the process of SAP custom object analytics. As a result, this section gives you an analytical view of the custom objects present in the system. After connecting an ECC system, KTern runs the custom object analytics check and determines the custom objects present in a system. The custom objects are then grouped based on the custom packages, the stakeholder who created it, the type of custom object and the frequency of usage.
 
-### Russian Pilaf
 
-Follow recipe for Turkish Pilaf III, substituting cold cooked lamb in place of chicken, and add a chicken’s liver sautéd in butter, then separated into small pieces.
+KTern.AI Custom Object Analytics
+In addition, you can also sort and search the custom objects according to the object types, custom packages, object owner, and the frequency of custom object usage. Hence, this enables you to determine the most used and least used custom objects.
 
-### Rissoto Creole
+With this feature of KTern, you can gain analytical insights on the following:
 
-3 tablespoons butter
+Custom packages with respect to the number of objects
+Frequently used custom transactions/reports
+Top x custom object stakeholders
+Top x custom object types
+Custom objects summary, and much more
+Typically, one of the first questions a stakeholder asks to determine the weight and complexity of the ECC system is: What is the total number of custom objects in the system? KTern provides the answer to the above question and much more additional insights in just a click of the button. You can also use this feature to indirectly determine the timeline and effort of an SAP S/4HANA system conversion project.
 
-1 cup rice
+Custom Code Impact Analysis
+Using the custom code impact analysis feature of KTern in SAP S/4HANA assessment, you can assess and analyze the syntactical change impact of all the custom Z tables, Z programs, and Z objects. It is a pre-requisite to check the impact on the standard SAP code and the custom code before moving to S/4HANA. Without completing this step, you cannot proceed further in the system conversion process.
 
-2¾ cups highly seasoned
+Features of Custom Code Impact Analysis
+KTern automates the process of SAP custom code impact analysis. As a result, this section gives you an analytical view of the custom code present in an SAP ECC system. After connecting an ECC system, KTern runs the custom code impact analytics check and analyzes the custom programs and objects present in a system.
 
-Brown Stock
+The key activities that can be performed using KTern with respect to the custom code are:
 
-Canned pimentoes
+Identification of affected custom objects
+Scope definition of custom code migration
+Define which custom code needs to be taken to S/4HANA
+Define usage frequency
+Custom code analysis parameters
+Syntactically incompatible change of existing functionality
+Functionality not available but functional equivalent available
+Functionality not available
+Change of existing functionality with a performance impact
+You can also upload the custom objects by exporting from SCMON
+The Custom Code Dashboard also provides a chart depicting a usage vs impact score of the custom objects. This helps in prioritizing the high impact code with a high frequency of usage. You can eliminate the low usage custom programs and objects after taking a call with the business stakeholders.
 
-Melt butter in hot frying-pan, add rice, and stir constantly until rice is well browned. Add stock heated to boiling-point, and cook in double boiler until soft. Turn on a serving dish, garnish with pimentoes cut in fancy shapes, and cover with
 
-**Creole Sauce.** Cook two tablespoons chopped onion, two tablespoons chopped green pepper, one tablespoon chopped red pepper, or canned pimentoes, and four tablespoons chopped fresh mushrooms, with three tablespoons butter, five minutes. Add two tablespoons flour, one cup tomatoes, one truffle thinly sliced, one-fourth cup sherry wine, and salt to taste.
+KTern.AI Custom Code Impact Analysis
+Based on the information provided by KTern, you can plan your SAP S/4HANA system conversion with confidence.
 
-### Boiled Macaroni
+KTern’s AI-powered rule engine automatically calculates the impact score of a custom program based on its analysis parameters and the number of impact cases. For example, if the custom program has many impact cases and its equivalent functionality is not available in S/4HANA, then it is given a high impact score.
 
-¾ cup macaroni broken in inch pieces
+KTern also provides the roadmap and effort for the S/4HANA system conversion based on the results from the custom code impact analysis.
 
-2 quarts boiling water
+Test Case Recommendations
+KTern recommends the test scenarios and test cases which can be tested during the Realize phase. And the best part is, all these recommendations are available after the SAP S/4HANA assessment itself. Hence, it can be used to calculate the effort and timeline for a S/4HANA conversion.
 
-1 tablespoon salt
+Features
+Test Suite Catalog
+KTern automates most of the testing process in SAP S/4HANA conversion. As a result, KTern generates the recommendations for test cases and calculates the effort for various scenarios. KTern enables test scripts to be loaded by connecting KTern with an ECC system and running “Check Test Case Recommendations”. The Test Suite Catalog contains the results in a hierarchical manner as Plan, Scenario, and Test case.
 
-½ cup cream
+KTern.AI Test Suite Catalog
+KTern.AI Test Suite Catalog
+Test Suite Wizard
+KTern provides the basic information on each test case in the test case wizard. It consists of the following basic information:
 
-Cook macaroni in boiling salted water twenty minutes or until soft, drain in strainer, pour over it cold water to prevent pieces from adhering; add cream, reheat, and season with salt.
+The test plan and scenario to which the test case belongs
+The related functional module of the test case
+The Business Process of the test case
+Description of the test case
+Priority and test type
+The stakeholders assigned to each test case
+Files and Reference Notes
+Discussion Forum
+Test Suite Dashboard
+VVV Scoring
+The VVV Scoring Dashboard covers the Volume, Value, and Velocity Analysis of the business per transaction usage and helps decide the critical business processes which must be tested. KTern analyzes each transaction for its value, volume (frequency of usage) and velocity and assigns a score between 1 and 50 with 1 being the lowest and 50 being the highest. This can be used to determine the critical business cases and assign priority for each test case.
 
-### Macaroni with White Sauce
+KTern.AI Test Suite Dashboard
+KTern.AI Test Suite Dashboard
+Fiori App Recommendations
+KTern’s Fiori App Recommendations feature automatically analyses the connected system and recommends the necessary Fiori applications. KTern also determines the relevancy score of each recommended Fiori app along with its respective module and transaction. In addition, KTern also provides the list of stakeholders and the impacted roles for each Fiori App. The Solution Architects and the Project Managers can use this feature to prioritize the implementation of Fiori Apps.
 
-¾ cup macaroni broken in inch pieces
+Features
+KTern automatically analyses the connected ECC system and recommends a list of SAP Fiori Apps which can be implemented. As a result, this section gives you an analytical view of the Fiori Apps as per their functional modules after analyzing the various transactions.
 
-2 quarts boiling water
+In addition, KTern also provides the associated stakeholders of each Fiori App along with their relevancy score and impacted roles. For each recommended Fiori App, KTern provides the following information in an easy-to-consume tabular format:
 
-1 tablespoon salt
+Module to which the SAP Fiori App belongs
+Analyzed transaction
+Fiori App type
+Relevancy Score
+Stakeholders
+Line of Business
+Impacted Roles
+Reference SAP Note
+Reference link
 
-1½ cups White Sauce
+KTern.AI Fiori App Recommendations
+SAP Fiori is a user experience (UX) platform that provides a range of pre-built, responsive applications for SAP S/4HANA. These applications, known as SAP Fiori apps, are designed to support various business processes and activities, such as financial accounting, sales and marketing, human resources, and supply chain management.
 
-Cook as for Boiled Macaroni, and reheat in White Sauce.
+KTern.AI is a platform that provides assessment and analysis tools for SAP S/4HANA, including tools for analyzing and recommending SAP Fiori apps. Using KTern.AI, you can assess your current systems and processes, identify areas where SAP Fiori apps may be beneficial, and recommend specific apps that may be relevant to your business needs.
 
-**White Sauce.** Melt two tablespoons butter, add two tablespoons 91flour with one-half teaspoon salt, and pour on slowly one and one-half cups scalded milk.
+To recommend SAP Fiori apps using KTern.AI, you will need to follow a series of steps, which may include:
 
-### Baked Macaroni
+Identifying your business goals and objectives: It is important to have a clear understanding of what you want to achieve with SAP Fiori and how it will help your business.
+Gathering data and information: You will need to collect data and information about your current systems and processes, as well as any other relevant information that will help you assess your readiness for SAP Fiori.
+Analyzing the data: Using the tools provided by KTern.AI, you will analyze the data and information you have gathered to identify any potential challenges or issues that may arise during the implementation of SAP Fiori.
+Identifying SAP Fiori apps: Based on the results of the assessment, you can identify SAP Fiori apps that may be relevant to your business needs and may help you achieve your goals and objectives.
+Recommending SAP Fiori apps: With a clear understanding of your business needs and the available SAP Fiori apps, you can make recommendations for which apps to implement and how to best utilize them to support your business processes and activities.
+There are over 1000 Fiori applications today. Implementing all the thousand Fiori apps does not make sense. Hence, you will have to decide which Fiori apps are relevant to your business. With KTern’s Fiori App recommendations, you can easily get answers to the below questions and determine the most important Fiori applications and implement them first.
 
-Put Macaroni with White Sauce in buttered baking dish, cover with buttered crumbs, and bake until crumbs are brown.
+The business process and roles which will be improved and to which functional module they belong
+The applications that should be available for immediate use
+The business users who will access those apps
+In which use cases will the business users use those apps
+And, on which devices will they use them
+Based on answers to the above questions, the Solution Architects and Functional Consultants can activate the required Fiori Apps during the system conversion.
 
-### Baked Macaroni with Cheese
+BW Extractor Check
+With the SAP BW Extractor check feature, KTern automatically identifies and analyses all the data sources. It also classifies them based on the impact while moving to SAP S/4HANA. It is a pre-requisite to check the compatibility and impact of the SAP BW Extractors before moving to S/4HANA. Without completing this step, you cannot proceed further in the system conversion process.
 
-Put a layer of boiled macaroni in buttered baking dish, sprinkle with grated cheese; repeat, pour over White Sauce, cover with buttered crumbs, and bake until crumbs are brown.
+Features
+KTern finds out the total number of BW data sources in a system and the number of impacted and non-impacted data sources in a system. As a result, this section gives you an analytical view of the BW data sources present in the connected system.
 
-### Macaroni with Tomato Sauce
+It then classifies the data sources into Whitelisted and Not Whitelisted data sources. Whitelisted data sources are SAP-Authorized data sources. The data from these authorized data sources are migrated safely to S/4HANA because the data structures in these data sources abide by the standard best practices. Not Whitelisted data sources are not authorized by SAP and it may cause some trouble during the system conversion process.
 
-Reheat Boiled Macaroni in one and one-half cups of Tomato Sauce I, sprinkle with grated cheese, and serve; or prepare as Baked Macaroni, using Tomato in place of White Sauce.
 
-### Macaroni à l’Italienne
+KTern.Ai BW Extractor Check 
+This feature is essentially used by the SAP Analytics, BI/BW consultants. They use it to determine the amount of effort required from their end to convert to S/4HANA. For example, if a data source is not working or not whitelisted in S/4HANA, then they have to create a custom data source, migrate all the data to this new data source and then integrate it to the new system. Same is the case for non-relevant data sources. Some data sources may be deprecated in S/4HANA, but the data they contain might be crucial. In such cases also, an analytics consultant will have to a custom data source.
 
-¾ cup macaroni
+Check Out More at BW Extractors
 
-2 quarts boiling salted water
+Also, if you are planning a parallel BW4HANA implementation, then the data from the SAP S/4HANA assessment becomes crucial.
 
-½ onion
+Transport Request Analytics
+KTern’s TR Analytics feature automatically identifies and analyses all the transport requests in a system. KTern automatically finds out the total number of Transport Requests in a system in (n) and (n-1) years. It also gives an analysis of the stakeholders who create these transport requests. As a result, this section gives you an analytical view of the Transport Requests present in the connected system.
 
-2 cloves
+There are three types of Transport Requests they are:
+Workbench Request: Workbench requests are cross-client. It essentially means that the changes done in one client are automatically reflected in all other clients.
 
-1½ cups Tomato Sauce II
+Customizing Request: Customizing requests are client specific. The changes will not be reflected in other clients.
 
-½ cup grated cheese
+Transport of Copies: Transport of copies allows you to transport objects to any specified SAP System. It allows you to move the original location of objects to a target system.
 
-2 tablespoons wine
+KTern also categorizes the Transport Requests into seven categories:
+Open Transport Requests
+Top 100 Large TR Types
+Transport Requests over the years
+Top TR Stakeholders
+Number of Transport Requests per month
+Top 10 large Transport Requests till date
+Top 5 stakeholders of large TR
+Check Out More at Transport Requests
 
-½ tablespoon butter
+Archiving Recommendations
+With the Archiving Recommendations feature, KTern automatically analyses the system and identifies the documents, tables and custom programs which can be archived. You can then archive these data to any other third-party storage database.
 
-Cook macaroni in boiling salted water, with butter and onion stuck with cloves; drain, remove onion, reheat in Tomato Sauce, add cheese and wine.
 
-### Macaroni, Italian Style
+Archiving Recommendations
 
-1 cup macaroni
+Features
+SAP Data Archiving Process essentially involves three major steps:
+Creating archive files
+Running delete programs
+Storing the archive file
+KTern provides a detailed report on archiving recommendations. The results are as follows:
+Documents archiving potential
+Tables archiving potential
+Custom programs archiving potential
+KTern.AI Archiving Recommendations
+KTern.AI Archiving Recommendations
+Check Out More at Archiving Recommendations
 
-2 tablespoons butter
+User License Recommendations
+With the Archiving Recommendations feature, KTern automatically analyses the system and identifies the documents, tables and custom programs which can be archived. You can then archive these data to any other third-party storage databaseIn the case of S/4HANA system conversion, you must analyse the existing SAP ERP users and their license types. KTern automates this process. It finds out the total number of SAP ERP users and also classifies them into active and inactive users based on their activity. As a result, this section gives you an analytical view of all the users present in the system and helps you make the right decision with respect license purchase before moving to S/4HANA.
 
-2 tablespoons flour
+KTern.AI User License Recommendations 
+KTern.AI User License Recommendations 
+KTern.AI also provides the below information about each and every particular user in the ECC system:
+Name of the user
+User type (Communication user, Dialog User or System User)
+License type (Professional, Limited Professional, Test or ESS user)
+Type of Admin user
+System to which the User belongs
+Last Login date of the User
+User status (Active or Inactive)
+This feature of KTern is essentially used by the Project Managers and key stakeholders of the customer side. It enables them to have a thorough understanding of their ECC landscape and their licensing model. The main purpose of this feature is to determine the number and type of licenses you need to purchase before moving to S/4HANA. Doing this analysis before moving provides a significant advantage in planning your system conversion. That’s why this feature is included in the Discover phase itself.
 
-1½ cups scalded milk
+You can read more about KTern’s user license recommendations here: License Recommendations
 
-⅔ cup grated cheese
+Training Scenario Recommendations
+KTern’s Training Scenario Recommendations feature identifies the business processes which have undergone changes in S/4HANA. You must train the end-users to adopt these changes. KTern also identifies the relevant training scenarios along with the stakeholders who must be trained. This will enable the Project Managers to keep an eye on the training of the end-users and effectively govern the change management process.
 
-Salt and paprika
+Features
+KTern analyzes and documents the training requirements for the key users and end-users. KTern automatically provides the training scenarios for each module based on the impact of change in S/4HANA. It provides a clear description, status of each training scenario in S/4HANA, and the reference SAP Notes (which has all the changes with respect to that business process).
 
-¼ cup finely chopped cold boiled ham
+KTern.AI Training Scenario Recommendations
+KTern.AI Training Scenario Recommendations
+One of the most important features of KTern’s training scenario recommendation is that it identifies the key stakeholders of each business process. They are ranked based on their usage of each scenario. For example, all MM consultants use Goods Withdrawal process of Material Management module. This functionality is unavailable in S/4HANA, but an equivalent exists. Hence, you must train the end-users to adopt the new process. KTern provides a list of all the users who use this process and ranks them hierarchically according to their usage. The consultant who uses this process/scenario the most receives Rank 1. Hence, based on this analysis, you can design and execute a training plan in the subsequent phases of the project.
 
-Break macaroni in one-inch pieces and cook in boiling salted water, drain, and reheat in sauce made of butter, flour, and milk, to which is added cheese. As soon as cheese is melted, season with salt and paprika, and turn on to a serving dish. Sprinkle with ham, and garnish with parsley.
+The stakeholders can then create a training event and assign it to the relevant functional and technical consultants.
 
-92
+Roadmap Guide
+KTern’s Impact Analysis module assesses the complete SAP landscape and provides an assessment report. The SAP S/4HANA assessment report enables you to understand the implications of the transition from an existing SAP ERP system to S/4HANA. The Roadmap Guide module of KTern provides an automated high-level roadmap of the SAP S/4HANA system conversion process. The Solution Architects and the Project Managers can then validate the roadmap and proceed with the system conversion project.
 
-### Macaroni à la Milanaise
+Features
+After assessing an SAP ECC landscape completely, KTern auto-generates a roadmap and timeline for your S/4HANA conversion. This roadmap/timeline is custom-made for your system only. It takes system complexity, customizations, add-ons, integrations and enhancements into account and then comes up with the timeline.
 
-Cook macaroni as for Macaroni à l’Italienne, reheat in Tomato Sauce II, add six sliced mushrooms, two slices cooked smoked beef tongue cut in strips, and one-half cup grated cheese.
+KTern also provides a detailed timeline of each of the sub-phases of the project with their start and end date. The Solution Architects and Project Managers can use this rough project roadmap and chart out a detailed plan for the conversion.
 
-### Spaghetti
+Timeline Estimation
+Timeline Estimation
+Effort Estimation
+The SAP S/4HANA assessment will enable the customer and implementation partner to better understand the implications of system conversion. It identifies the necessary preparation and pre-checks to be done in the current system landscape, long before the real conversion begins. In addition to resource and duration estimation, HANA database sizing and hardware sizing is estimated for an SAP S/4HANA conversion project.
 
-Spaghetti may be cooked in any way in which macaroni is cooked, but is usually served with Tomato Sauce.
 
-It is cooked in long strips rather than broken in pieces; to accomplish this, hold quantity to be cooked in the hand, and dip ends in boiling salted water; as spaghetti softens it will bend, and may be coiled under water.
+Effort Estimation using Digital Maps
 
-### Knöfli
+Based on this SAP S/4HANA assessment report, KTern will use its inbuilt effort estimation engine to accurately predict the efforts and resources for a conversion project.
 
-Beat two eggs slightly and add one-fourth cup milk. Add gradually to one cup flour mixed and sifted with one teaspoon salt. Place colander over a kettle of boiling water, turn in one-third mixture, and force through colander into water, using a potato masher. As soon as buttons come to top of water, remove with skimmer to hot vegetable dish, and sprinkle with salt and grated cheese; repeat until mixture is used. Let stand in oven five minutes, then serve.
+KTern accurately estimates costs and resources to optimize the total cost of conversion and to identify and deploy the right resources for an effortless SAP S/4HANA realization. This module helps the customer and the SAP partner to estimate the required man-hours based on user name, module name, transaction name and type as it quantifies the IT effort required to move to SAP S/4HANA. KTern’s AI-powered Effort Estimator also makes you understand the business support required to complete the project.
 
-### Ravioli
+As part of Effort Estimation, KTern.AI provides:
+Recommended Project Timeline
+Recommended Duration Estimate
+Recommended Resource Utilization Estimate
+KTern.AI Effort Estimation 
+KTern.AI Effort Estimation 
+KTern accurately calculates the number of technical consultants, functional consultants, solution architects and project managers from both the system integrator side and the customer side. This feature, combined with the roadmap generator, is used to plan a smooth and risk-free transition to S/4HANA.
 
-1½ cups flour
 
-½ egg
+KTern.AI Effort Estimation provides
+ Recommended Project Timeline
+ Recommended Duration Estimate
+ Recommended Resourse Utilisation Estimate 
+Conclusion
+Therefore, in this way KTern performs a complete scan of the connected ECC system and provides a comprehensive SAP S/4HANA assessment report with which you can plan your SAP S/4HANA migration with ease.
 
-Warm water
+In addition, you can also get started by exploring the features of KTern at  Getting Started . Alternatively, if you would like a guided demo of the product from one of our product engineers, kindly get in touch with us by submitting a message at  Contact Us.
 
-¼ cup cracker crumbs
-
-½ cup grated Parmesan cheese
-
-¼ cup chopped cooked spinach
-
-1 egg
-
-White stock
-
-Salt
-
-Pepper
-
-Sift flour on a board, make depression in centre, drop in one-half egg, and moisten with warm water to a stiff dough. Knead until smooth, cover, and let stand ten minutes; then roll as thin as a sheet of paper, using a rolling-pin. Cut in strips as long as paste, and two and three-fourth inches wide, using a pastry jagger. Mix cracker crumbs, spinach, and egg; moisten with stock and season with salt and pepper. Put mixture by three-fourths teaspoon on lower half of strips of paste, two inches apart. Fold upper part of paste over 93lower part. Press edges together and between mixture with tips of thumbs, then cut apart, using pastry jagger. Cook in White Stock ten minutes, take up with skimmer, arrange a layer on hot serving dish, sprinkle generously with grated Parmesan cheese, cover with Tomato Sauce; repeat twice and serve at once.
-
-### Tomato Sauce
-
-⅓ cup butter
-
-1 onion, finely chopped
-
-¾ teaspoon salt
-
-Few grains pepper
-
-1 small can condensed tomato
-
-⅔ lb. lean beef
-
-Cook first four ingredients eight minutes. Add tomato, 1 pint of water, and beef cut in small pieces, and cook one and one-half hours. Remove meat before serving. Ravioli is a national Italian dish, and the cheese and condensed tomato may be best bought of an Italian grocer.
-
-94
+Tags
+Digital Maps
